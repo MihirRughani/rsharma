@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+.accordions.flat {
+
+}
+
+
+
+
+.accordions.flat .accordions-head {
+  background: none repeat scroll 0 0 rgb(1, 206, 106);
+  border-color: -moz-use-text-color -moz-use-text-color rgb(0, 103, 53);
+  border-radius: 0;
+  border-style: none none solid;
+  border-width: medium medium 1px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin: 0;
+  padding: 10px 30px;
+}
+.accordions.flat .accordions-head:hover {
+  
+}
+
+.accordions.flat .ui-accordion-header-active {
+  font-weight: bold;
+}
+
+
+
+
+.accordions.flat .ui-accordion-header-active .accordion-plus{
+	display:none !important;
+}
+
+.accordions.flat .ui-accordion-header-active .accordion-minus{
+	display:block !important;
+}
+
+.accordions.flat .ui-accordion-header .accordion-plus{
+	display:block;
+}
+.accordions.flat .ui-accordion-header .accordion-minus{
+	display:none;
+}
+
+
+
+
+
+
+.accordions.flat .accordions-head .ui-accordion-header-icon {
+	display:none;
+}
+
+.accordions.flat .accordions-head .accordion-icons {
+  position: absolute;
+  top: 12px;
+}
+
+.accordions.flat .accordion-content {
+  /*border-bottom: 1px solid rgb(153, 153, 153) !important;
+  border-left: 1px solid rgb(153, 153, 153) !important;
+  border-radius: 0;
+  border-right: 1px solid rgb(153, 153, 153);
+  border-top: 0 none;*/
+  margin: 0;
+  padding: 15px;
+}
+
+
+
+
+
+
+

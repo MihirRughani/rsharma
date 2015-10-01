@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*CSS front page*/
+.accordion-icons {
+  height: 16px;
+  width: 16px;
+}
+
+.accordion-plus.arrow-double {
+  background: url("icons/arrow-double.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.accordion-minus.arrow-double{
+background: url("icons/arrow-double.png") no-repeat scroll 0 -16px rgba(0, 0, 0, 0);
+}
+
+
+
+.accordion-plus.arrow-dark {
+  background: url("icons/arrow-dark.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.accordion-minus.arrow-dark{
+background: url("icons/arrow-dark.png") no-repeat scroll 0 -16px rgba(0, 0, 0, 0);
+}
+
+.accordion-plus.arrow-naked {
+  background: url("icons/arrow-naked.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.accordion-minus.arrow-naked{
+background: url("icons/arrow-naked.png") no-repeat scroll 0 -16px rgba(0, 0, 0, 0);
+}
+
+.accordion-plus.arrow-round-inside-2 {
+  background: url("icons/arrow-round-inside-2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.accordion-minus.arrow-round-inside-2{
+background: url("icons/arrow-round-inside-2.png") no-repeat scroll 0 -16px rgba(0, 0, 0, 0);
+}
+
+.accordion-plus.arrow-thin {
+  background: url("icons/arrow-thin.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.accordion-minus.arrow-thin{
+background: url("icons/arrow-thin.png") no-repeat scroll 0 -16px rgba(0, 0, 0, 0);
+}
+
+
+.accordion-plus.plus-minus {
+  background: url("icons/plus-minus.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.accordion-minus.plus-minus{
+background: url("icons/plus-minus.png") no-repeat scroll 0 -16px rgba(0, 0, 0, 0);
+}
+

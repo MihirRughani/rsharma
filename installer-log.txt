@@ -1,0 +1,220 @@
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP1 START @ 03:29:12
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+VERSION:	0.5.30
+PHP:		5.6.2 | SAPI: apache2handler
+SERVER:		Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.6.2 mod_ssl/2.2.29 OpenSSL/0.9.8zf DAV/2 mod_perl/2.0.8 Perl/v5.20.0
+DOC ROOT:	/Applications/MAMP/htdocs/rsharma
+DOC ROOT 755:	true
+LOG FILE 644:	true
+BUILD NAME:	20151001_rachnasharma_560cf20c843f34998151001084252
+REQUEST URL:	http://localhost/rsharma/installer.php
+
+********************************************************************************
+ARCHIVE SETUP
+********************************************************************************
+NAME:	20151001_rachnasharma_560cf20c843f34998151001084252_archive.zip
+SIZE:	78.37MB
+ZIP:	Enabled (ZipArchive Support)
+EXTRACTING
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6421
+    [filename] => /Applications/MAMP/htdocs/rsharma/20151001_rachnasharma_560cf20c843f34998151001084252_archive.zip
+    [comment] => 
+)
+COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to .orig
+- Reset of .htaccess/web.config files
+
+UPDATED FILES:
+- SQL FILE:  '/Applications/MAMP/htdocs/rsharma/installer-data.sql'
+- WP-CONFIG: '/Applications/MAMP/htdocs/rsharma/wp-config.php'
+
+ARCHIVE RUNTIME: 4.9647 sec.
+
+
+********************************************************************************
+DATABASE-ROUTINES
+********************************************************************************
+--------------------------------------
+SERVER ENVIROMENT
+--------------------------------------
+MYSQL VERSION:	5.5.38
+TIMEOUT:	5000
+MAXPACK:	1048576
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+DROP TABLE:	
+QUERIES RAN:	4737
+
+wp_commentmeta: (0)
+wp_comments: (15)
+wp_cup_cp_profiles: (0)
+wp_duplicator_packages: (1)
+wp_em_bookings: (3)
+wp_em_events: (1)
+wp_em_locations: (0)
+wp_em_meta: (0)
+wp_em_tickets: (2)
+wp_em_tickets_bookings: (5)
+wp_links: (0)
+wp_mp_country: (239)
+wp_mp_feature_products: (0)
+wp_mp_feature_set: (0)
+wp_mp_feature_set_meta: (0)
+wp_mp_order_items: (1)
+wp_mp_orders: (1)
+wp_mp_payment_methods: (1)
+wp_mp_withdraws: (0)
+wp_nm_forms: (1)
+wp_options: (885)
+wp_postmeta: (2112)
+wp_posts: (511)
+wp_tcp_addresses: (0)
+wp_tcp_countries: (239)
+wp_tcp_currencies: (178)
+wp_tcp_orders: (0)
+wp_tcp_orders_costs: (0)
+wp_tcp_orders_costsmeta: (0)
+wp_tcp_orders_details: (0)
+wp_tcp_orders_detailsmeta: (0)
+wp_tcp_ordersmeta: (0)
+wp_tcp_rel_entities: (0)
+wp_tcp_tax_rates: (1)
+wp_tcp_taxes: (0)
+wp_term_relationships: (38)
+wp_term_taxonomy: (18)
+wp_terms: (19)
+wp_upb_field: (0)
+wp_upb_fields: (0)
+wp_upb_group: (0)
+wp_upb_option: (40)
+wp_upb_values: (0)
+wp_usermeta: (169)
+wp_users: (10)
+wp_visual_form_builder_entries: (0)
+wp_visual_form_builder_fields: (17)
+wp_visual_form_builder_forms: (1)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (1)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_order_itemmeta: (153)
+wp_woocommerce_order_items: (17)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_woocommerce_termmeta: (0)
+Removed '153' cache/transient rows
+
+SECTION RUNTIME: 1.2916 sec.
+
+********************************************************************************
+STEP1 COMPLETE @ 03:29:19 - TOTAL RUNTIME: 6.2660 sec.
+********************************************************************************
+
+
+
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP2 START @ 03:29:32
+NOTICE: Do not post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	 utf8 
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments~ (15)
+wp_cup_cp_profiles^ (0)
+wp_duplicator_packages^ (0)
+wp_em_bookings~ (3)
+wp_em_events~ (1)
+wp_em_locations^ (0)
+wp_em_meta^ (0)
+wp_em_tickets~ (2)
+wp_em_tickets_bookings~ (5)
+wp_links^ (0)
+wp_mp_country~ (239)
+wp_mp_feature_products^ (0)
+wp_mp_feature_set^ (0)
+wp_mp_feature_set_meta^ (0)
+wp_mp_order_items~ (1)
+wp_mp_orders~ (1)
+wp_mp_payment_methods~ (1)
+wp_mp_withdraws^ (0)
+wp_nm_forms~ (1)
+wp_options~ (730)
+wp_postmeta~ (2112)
+wp_posts~ (511)
+wp_tcp_addresses^ (0)
+wp_tcp_countries~ (239)
+wp_tcp_currencies~ (178)
+wp_tcp_orders^ (0)
+wp_tcp_orders_costs^ (0)
+wp_tcp_orders_costsmeta^ (0)
+wp_tcp_orders_details^ (0)
+wp_tcp_orders_detailsmeta^ (0)
+wp_tcp_ordersmeta^ (0)
+wp_tcp_rel_entities^ (0)
+wp_tcp_tax_rates~ (1)
+wp_tcp_taxes^ (0)
+wp_term_relationships~ (38)
+wp_term_taxonomy~ (18)
+wp_terms~ (19)
+wp_upb_field^ (0)
+wp_upb_fields^ (0)
+wp_upb_group^ (0)
+wp_upb_option~ (40)
+wp_upb_values^ (0)
+wp_usermeta~ (169)
+wp_users~ (10)
+wp_visual_form_builder_entries^ (0)
+wp_visual_form_builder_fields~ (17)
+wp_visual_form_builder_forms~ (1)
+wp_woocommerce_api_keys^ (0)
+wp_woocommerce_attribute_taxonomies~ (1)
+wp_woocommerce_downloadable_product_permissions^ (0)
+wp_woocommerce_order_itemmeta~ (153)
+wp_woocommerce_order_items~ (17)
+wp_woocommerce_tax_rate_locations^ (0)
+wp_woocommerce_tax_rates^ (0)
+wp_woocommerce_termmeta^ (0)
+--------------------------------------
+SEARCH1:	'http://techroversolutions.com/rsharma' 
+REPLACE1:	'http://localhost:8888/rsharma' 
+SEARCH2:	'/home/tech/public_html/rsharma/' 
+REPLACE2:	'/Applications/MAMP/htdocs/rsharma/' 
+SCANNED:	Tables:56 | Rows:4523 | Cells:30152 
+UPDATED:	Tables:1 | Rows:436 |Cells:478 
+ERRORS:		0 
+RUNTIME:	2.195200 sec
+
+********************************************************************************
+START FINAL CLEANUP: 03:29:34
+********************************************************************************
+UPDATE `wp_blogs` SET domain = 'localhost' WHERE domain = 'techroversolutions.com'
+
+--------------------------------------
+WARNINGS
+--------------------------------------
+No Warnings Found
+
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+********************************************************************************
+STEP 2 COMPLETE @ 03:29:34 - TOTAL RUNTIME: 2.2010 sec.
+********************************************************************************
